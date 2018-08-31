@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Center from 'react-center';
 import './index.css';
-import App from './App';
+import Sudoku from './Sudoku';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<Center><Sudoku /></Center>, document.getElementById('root'));
 registerServiceWorker();
